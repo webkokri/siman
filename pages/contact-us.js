@@ -12,8 +12,6 @@ function Contact() {
         event.preventDefault();
         // You can add validation logic here if needed
 
-        // Make an API request to your server-side API or a third-party service
-        // For example, you can use the `fetch` API or a library like Axios
         try {
             const response = await fetch('/api/contact', {
                 method: 'POST',
@@ -22,10 +20,20 @@ function Contact() {
             });
             const data = await response.json();
             console.log(data);
-            // Handle the response data here
+            if (response.ok) {
+                alert('Your message has been sent successfully!');
+                // Optionally, reset form fields here
+                setName('');
+                setCompany('');
+                setEmail('');
+                setPhone('');
+                setMessage('');
+            } else {
+                alert('Failed to send message. Please try again later.');
+            }
         } catch (error) {
             console.error(error);
-            // Handle the error here
+            alert('An error occurred while sending your message. Please try again later.');
         }
     };
 
