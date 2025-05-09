@@ -55,7 +55,7 @@ const Footer = () => {
                             <h4 className="text-heading-5">Discover</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
-                                    <Link href="https://siman.ca/training.php" legacyBehavior>
+                                    <Link href="https://siman.ca/" legacyBehavior>
                                         <a>Industrial Training</a>
                                     </Link>
                                 </li>
