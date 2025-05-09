@@ -205,7 +205,7 @@ function Contact() {
                                 <div className="list-icons hover-up">
                                     <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" /></span>
                                         <h4 className="text-heading-4">Head Office</h4>
-                                        <p className="text-body-text color-gray-1100 mt-15">162, Heartstone Dr.<br />Winnipeg, Manitoba, Canada<br />Phone: +1 204 442 0911<br/>Phone: +1 204 881 2662<br />Email: info@siman.ca</p>
+                                        <p className="text-body-text color-gray-1100 mt-15">162, Heartstone Dr.<br />Winnipeg, Manitoba, Canada<br />Phone: +1 (604)-655-1283<br/>Phone: +1 204 881 2662<br />Email: info@siman.ca</p>
                                     </div>
                                 </div>
                             </div>

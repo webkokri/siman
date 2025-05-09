@@ -52,7 +52,7 @@ function Contact() {
                                     <h4 className="text-heading-6 color-gray-900 icon-home mb-10 mt-10">Siman Infotech</h4>
                                     <p className="text-body-text color-gray-600">162, Heartstone Dr.<br />Winnipeg, Manitoba, Canada</p>
                                     <p className="text-body-text color-gray-600"><br/><br/>(204) 881 2662</p>
-                                    <p className="text-body-text color-gray-600">(204) 442 0911</p>
+                                    <p className="text-body-text color-gray-600">(604)-655-1283</p>
                                     <p className="text-body-text color-gray-600">info@siman.ca</p>
                                 </div>
                                 <div className="col-lg-8">
@@ -141,7 +141,7 @@ function Contact() {
                                 <div className="list-icons hover-up">
                                     <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" /></span>
                                         <h4 className="text-heading-4">Head Office</h4>
-                                        <p className="text-body-text color-gray-1100 mt-15">162, Heartstone Dr.<br />Winnipeg, Manitoba, Canada<br />Phone: +1 204 442 0911<br/>Phone: +1 204 881 2662<br />Email: info@siman.ca</p>
+                                        <p className="text-body-text color-gray-1100 mt-15">162, Heartstone Dr.<br />Winnipeg, Manitoba, Canada<br />Phone: +1 (604)-655-1283<br/>Phone: +1 204 881 2662<br />Email: info@siman.ca</p>
                                     </div>
                                 </div>
                             </div>

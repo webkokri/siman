@@ -58,7 +58,7 @@ function Terms() {
 <p><strong>Third-party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</p>
 </li>
 <li>
-<p><strong>Website</strong> refers to Siman Infotech, accessible from <Link href="https://siman.ca" rel="external nofollow noopener" target="_blank"><a>https://siman.ca</a></Link></p>
+<p><strong>Website</strong> refers to Siman Infotech, accessible from <Link href="https://siman.ca" rel="external nofollow noopener" target="_blank">https://siman.ca</Link></p>
 </li>
 <li>
 <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
@@ -111,7 +111,7 @@ You agree that the original English text shall prevail in the case of a dispute.
 <p>By email: support@siman.ca</p>
 </li>
 <li>
-<p>By visiting this page on our website: <Link href="/contact-us" rel="external nofollow noopener" target="_blank"><a>https://siman.ca/contact-us</a></Link></p>
+<p>By visiting this page on our website: <Link href="/contact-us" rel="external nofollow noopener" target="_blank">https://siman.ca/contact-us</Link></p>
 </li>
 </ul>
 

@@ -34,8 +34,8 @@ function Home() {
                                     <h1 className="text-display-3 mt-30">Unparalleled Expertise. Seamless Technology, Performed with Flawless Precision!</h1>
                                     <p className="text-body-lead-large color-white-500 mt-40 pr-40">Since 2011, we craft custom-critical applications, leveraging our expertise to deliver powerful software solutions and unparalleled value. Whether a start-up or an enterprise, we are ready to drive your innovation.</p>
                                     <div className="mt-40">
-                                        <Link href="/contact-us" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Get Started
-                                        </a></Link>
+                                        <Link href="/contact-us" className="btn btn-black shape-square icon-arrow-right-white">Get Started
+                                        </Link>
                                     </div>
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
@@ -51,22 +51,22 @@ function Home() {
                     <div className="container">
                         <div className="row justify-content-md-center">
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#" legacyBehavior><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-1.svg" /></a></Link>
+                                <Link href="/#" className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-1.svg" /></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#" legacyBehavior><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-2.svg" /></a></Link>
+                                <Link href="/#" className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-2.svg" /></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#" legacyBehavior><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-3.svg" /></a></Link>
+                                <Link href="/#" className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-3.svg" /></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#" legacyBehavior><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-4.svg" /></a></Link>
+                                <Link href="/#" className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-4.svg" /></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#" legacyBehavior><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-5.svg" /></a></Link>
+                                <Link href="/#" className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-5.svg" /></Link>
                             </div>
                             <div className="col-lg-2 col-md-3 col-sm-4 col-6 text-center">
-                                <Link href="/#" legacyBehavior><a className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-6.svg" /></a></Link>
+                                <Link href="/#" className="item-logo box-hover-shadow hover-up"><img alt="Agon" src="assets/imgs/slider/logo/sample-logo-6.svg" /></Link>
                             </div>
                         </div>
                     </div>
@@ -90,34 +90,22 @@ function Home() {
                         <div className="text-center mt-90">
                             <ul className="nav" role="tablist">
                                 <li onClick={() => handleOnClick(1)}>
-                                    <Link href="/#tab-1" legacyBehavior>
-                                        <a className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Free Consulting</a>
-                                    </Link>
+                                    <Link href="/#tab-1" className={activeIndex === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Free Consulting</Link>
                                 </li>
                                 <li onClick={() => handleOnClick(2)}>
-                                    <Link href="/#tab-2" legacyBehavior>
-                                        <a className={activeIndex === 2 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Technology Solutions</a>
-                                    </Link>
+                                    <Link href="/#tab-2" className={activeIndex === 2 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Technology Solutions</Link>
                                 </li>
                                 <li onClick={() => handleOnClick(3)}>
-                                    <Link href="/#tab-3" legacyBehavior>
-                                        <a className={activeIndex === 3 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Marketing Solutions</a>
-                                    </Link>
+                                    <Link href="/#tab-3" className={activeIndex === 3 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Marketing Solutions</Link>
                                 </li>
                                 <li onClick={() => handleOnClick(4)}>
-                                    <Link href="/#tab-4" legacyBehavior>
-                                        <a className={activeIndex === 4 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Project Management</a>
-                                    </Link>
+                                    <Link href="/#tab-4" className={activeIndex === 4 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Project Management</Link>
                                 </li>
                                 <li onClick={() => handleOnClick(5)}>
-                                    <Link href="/#tab-5" legacyBehavior>
-                                        <a className={activeIndex === 5 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Maintenance & Support</a>
-                                    </Link>
+                                    <Link href="/#tab-5" className={activeIndex === 5 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Maintenance & Support</Link>
                                 </li>
                                 <li onClick={() => handleOnClick(6)}>
-                                    <Link href="/#tab-6" legacyBehavior>
-                                        <a className={activeIndex === 6 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Other Services</a>
-                                    </Link>
+                                    <Link href="/#tab-6" className={activeIndex === 6 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Other Services</Link>
                                 </li>
                             </ul>
                         </div>
@@ -429,7 +417,7 @@ To deliver impactful solutions, we prioritize understanding business dynamics an
                                 <div className="col-lg-2 col-sm-1 col-12" />
                             </div>
                             <div className="container mt-50 text-center">
-                            <Link className="btn btn-black icon-arrow-right-white" href="/contact-us"><a>Get Started</a></Link>
+                            <Link className="btn btn-black icon-arrow-right-white" href="/contact-us">Get Started</Link>
                             </div>
                         </div>
                     </div>
